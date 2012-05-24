@@ -10,6 +10,7 @@ gem 'sqlite3', :group => :development
 
 group :production do
   gem 'pg'
+  gem 'dalli'
 end
 
 

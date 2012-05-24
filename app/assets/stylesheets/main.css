@@ -185,8 +185,8 @@ body {
   
   margin: 0;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: 'Amethysta', 'Georgia', serif;
-  font-size: 13px;
+  font-family: 'adobe-text-pro', serif;
+  font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   color: #404040;
@@ -394,7 +394,7 @@ a:hover {
  * Headings, body text, lists, code, and more for a versatile and durable typography system
  * ---------------------------------------------------------------------------------------- */
 p {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   margin-bottom: 9px;
@@ -410,7 +410,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  font-family:  'Arimo', sans-serif;
+  font-family:  'ratio', sans-serif;
   color: #414;
 }
 h1 small,
@@ -2505,7 +2505,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   font-size: 90px;
   line-height: 1.5;
   letter-spacing: -1px;
-  font-family: "ff-market-web", 'Marck Script', 'pristina', cursive;
+  font-family: 'ff-market-web';
   color: #fff;
   text-shadow: 0 0 5px #000;
 }
@@ -2521,7 +2521,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   font-size: 18px;
   font-weight: 700;
   line-height: 27px;
-  font-family: 'Arimo', 'arial', serif;
+  font-family: 'ratio';
   color: #fff;
   text-shadow: 0 0 5px #000;  
 }
@@ -2602,7 +2602,7 @@ footer .span-one-third, .span-one-third h3 {
 }
 footer .fancy-font {
   color: #d69e2b;
-  font-family: 'Marck Script', pristina, cursive;
+  font-family: 'ff-market-web';
   line-height: 1.2em;
   font-size: 1.6em;
 }
