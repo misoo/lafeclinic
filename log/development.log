@@ -84849,3 +84849,118 @@ Served asset /fp06.jpg - 304 Not Modified (1ms)
 
 Started GET "/assets/fp05.jpg" for 127.0.0.1 at 2012-05-24 15:43:31 -0600
 Served asset /fp05.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-05-24 15:46:52 -0600
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (4.1ms)
+Compiled main.css  (0ms)  (pid 17828)
+Completed 200 OK in 19ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-05-24 15:46:52 -0600
+Served asset /main.css - 200 OK (3ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-05-24 15:46:52 -0600
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/omareo.js?body=1" for 127.0.0.1 at 2012-05-24 15:46:52 -0600
+Served asset /omareo.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-twipsy.js?body=1" for 127.0.0.1 at 2012-05-24 15:46:52 -0600
+Served asset /bootstrap-twipsy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-05-24 15:46:52 -0600
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-05-24 15:46:52 -0600
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fp01.jpg" for 127.0.0.1 at 2012-05-24 15:46:52 -0600
+Served asset /fp01.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fp02.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /fp02.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fp03.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /fp03.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fp04.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /fp04.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fp05.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /fp05.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fp06.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /fp06.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyph2.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /glyph2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/healthcare.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /healthcare.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/education.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /education.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/community.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /community.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nutrition.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /nutrition.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/housing.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /housing.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/culture.jpg" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /culture.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/border2.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /border2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tjc.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /tjc.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tachc.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /tachc.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nachc.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /nachc.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nclr.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /nclr.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/aetc.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /aetc.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb32.png" for 127.0.0.1 at 2012-05-24 15:46:53 -0600
+Served asset /fb32.png - 304 Not Modified (0ms)
