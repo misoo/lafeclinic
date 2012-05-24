@@ -2505,7 +2505,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   font-size: 90px;
   line-height: 1.5;
   letter-spacing: -1px;
-  font-family: 'Marck Script', 'pristina', cursive;
+  font-family: "ff-market-web", 'Marck Script', 'pristina', cursive;
   color: #fff;
   text-shadow: 0 0 5px #000;
 }
