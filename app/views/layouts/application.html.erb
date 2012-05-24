@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Centro de Salud Familiar La Fe | <%= @title %></title>
+    <meta name="description" content="Centro de Salud Familiar La Fe">
+    <meta name="author" content="Omar Ontiveros, Based on Twitter Bootstrap">
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<link href='http://fonts.googleapis.com/css?family=Arimo:700|Marck+Script|Amethysta' rel='stylesheet' type='text/css'>
+    
+	<%= stylesheet_link_tag "main" %>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+    </style>
+
+   <!-- 
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+	
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-11906756-8']);
+	  _gaq.push(['_trackPageview']);
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+  </head>
+
+  <body>
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+    <div class="topbar" data-dropdown="dropdown">
+      <div class="fill">
+        <div class="container">
+		  <%= link_to "La Fe", root_path, :class => "brand" %>
+          <ul class="nav">
+            <li></li>
+			<li><%= link_to "About", about_path %></li>
+            <li><%= link_to "News", news_path %></li>
+          <!--  <li><%= link_to "Events", events_path %></li> -->
+            <li><%= link_to "Health Care", healthcare_path %></li>
+            <li><%= link_to "Community", familysupport_path %></li>
+            <li><%= link_to "Education", education_path %></li>
+			<li><%= link_to "Cultural Arts", culturalarts_path %></li>
+            <li><%= link_to "Careers", careers_path %></li>
+            <li><%= link_to "Contact", contact_path %></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+	<div class="container bg-box">
+	<%= yield %>
+	
+	      <footer>
+	        <div class="row">
+	          <div class="span-two-thirds">
+	            <h3>La Fe is a proud member of:</h3>          
+	            <div class="footer-member">
+	              <a class="float-left" href="http://www.jointcommission.org/">
+					  <%= image_tag "tjc.png", :size => "75x75", :alt => "The Joint Commission Seal" %>
+					 </a>
+	           
+	              <p>The Joint Commission, an independent nonprofit organization, accredits and certifies more than 19,000 health-care organizations and programs in the United States.</p>  
+	            </div>
+	            <div class="footer-member">
+	              <a class="float-left" href="http://www.tachc.org/"><%= image_tag "tachc.png", :size => "53x75", :alt => "TACHC Logo" %></a>
+	
+	              <p>The Texas Association of Community Health Centers (TACHC) is a private, nonprofit membership association that represents safety- net health-care providers in the state of Texas.</p> 
+	            </div>
+	            <div class="footer-member">
+	              <a class="float-left" href="http://www.nachc.com/"><%= image_tag "nachc.png", :size => "75x75", :alt => "NACHC Logo" %></a>
+	           
+	           <p>Founded in 1971, The National Association of Community Health Centers works with a network of health centers and primary-care organizations through advocacy, public education, training, and stakeholder alliances.</p>  
+	            </div>
+			
+	            <div class="footer-member">
+	              <a class="float-left" href="http://www.nclr.org/"><%= image_tag "nclr.png", :size => "114x75", :alt => "NCLR Logo" %></a>
+	         
+	            <p>The National Council of La Raza (NCLR)—the largest national Hispanic civil rights and advocacy organization in the United States—works to improve opportunities for Hispanic Americans.</p> 
+	            </div>
+				
+				<div class="footer-member">
+					<a class="float-left" href="http://www.aids-ed.org/"><%= image_tag "aetc.png", :size => "75x75", :alt => "AETC Logo" %></a>
+					<p>The AIDS Education and Training Center conducts multidisciplinary education and training programs for health-care providers treating persons living with HIV/ AIDS.</p> 
+				</div>
+			
+
+	            <h3 class="clear-both">Helpful Sites</h3>
+	            <ul>
+	              <li><a href="http://www.phccares.com/">Physicians Health Choice</a></li>
+	              <li><a href="http://www.texascommunitycare.com/index.php">Texas Community Care</a></li>
+	              <li><a href="http://www.humana.com/">Humana</a></li>
+	              <li><a href="http://www.bravohealth.com/">Bravo Health</a></li>
+	              <li><a href="http://www.elpasotexas.gov/health/">El Paso Department of Public Health</a></li>
+	              <li><a href="http://www.dshs.state.tx.us/">Texas Department of State Health Services</a></li>
+	              <li><a href="http://www.poisoncenter.org/">West Texas Regional Poison Center</a></li>
+	            </ul>
+	          </div>
+
+	          <div class="span-one-third">
+	            <h3>Our Mission:</h3>
+	            <p class="fancy-font">To improve the quality of life of those we serve by continuously enhancing the health and human services provided.</p>
+	              <%= image_tag "logo.png", :size => "72x72", :alt => "La Fe Logo" %>
+	              <p>
+	              Centro de Salud Familiar La Fe, Inc.<br />
+	              1314 E. Yandell<br />
+	              El Paso, Tx 79902<br />
+	              </p>
+	              <p>Administration Office - p: (915) 534-7979</p>
+	              <p>&copy; 2012</p>
+				  <br />
+				  <%= image_tag "fb32.png", :size => "32x32", :alt => "Facebook Icon", :class => "float-left" %>
+				  <h3><a href="https://www.facebook.com/pages/Centro-de-Salud-Familiar-La-Fe-Inc/379365831992">Follow us on Facebook</a></h3>
+	          </div>
+	        </div>
+	      </footer>
+
+	    </div> <!-- /container -->
+	    <!-- Javascript -->
+	    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<%= javascript_include_tag "prototype" %>
+	    <script src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.9/scriptaculous.js?effects"></script>
+		<%= javascript_include_tag "omareo" %>
+		<%= javascript_include_tag "bootstrap-twipsy" %>
+		<%= javascript_include_tag "bootstrap-popover" %>
+		<%= javascript_include_tag "bootstrap-dropdown" %>
+	  </body>
+	</html>
+	

@@ -1,0 +1,133 @@
+<pre>
+	Todo:
+	- Test with Internet Explorer 7 and 8
+	- Replace 2012 North Easter Parade Article with something fresh
+	- Replace Cesar Chavez article
+	- Replace Blood Drive Article
+	- Remove inactive links
+	
+</pre>
+      <div class="banner-container">
+		  	  
+        <div id="banner1" class="banner">
+		  <h4>Health is...</h4>
+          <h1>Bienestar</h1>
+          <p>Strengthening families and community by improving health, <br>education, economic success, and cultural arts enrichment.</p>
+          <p><%= link_to "Learn more &raquo;".html_safe, healthcare_path, :class => "btn primary large" %></p>
+        </div>
+		
+        <div id="banner2" class="banner">
+          <h4>Health is...</h4>
+          <h1>Nutrition</h1>
+          <p>Food is good to eat-- however it is important to eat the right type of food. <br>Our Nutrition classes will keep you healthy and ward off diabetes.</p>
+          <p><%= link_to "Learn more &raquo;".html_safe, healthcare_path, :class => "btn primary large" %></p>
+        </div>
+		
+		
+        <div id="banner3" class="banner">
+          <h4>Health is...</h4>
+          <h1>Quality Education</h1>
+          <p>Through our adult education programs and charter school <br>La Fe is giving our community the skills they need to build a better future.</p>
+          <p><%= link_to "Learn more &raquo;".html_safe, education_path, :class => "btn primary large" %></p>
+        </div>
+		
+        <div id="banner4" class="banner">
+          <h4>Health is...</h4>
+          <h1>Dignified Housing</h1>
+          <p>La Fe's Magoffin Park Villas are helping to restore the health of <br>our neighborhood while  keeping our roots intact.</p>
+          <p><%= link_to "Learn more &raquo;".html_safe, healthcare_path, :class => "btn primary large" %></p>
+        </div>
+		
+        <div id="banner5" class="banner">
+          <h4>Health is...</h4>
+          <h1>Culture</h1>
+          <p>La Fe keeps our traditions close to our hearts <br>through music and arts.</p>
+          <p><%= link_to "Learn more &raquo;".html_safe, culturalarts_path, :class => "btn primary large" %></p>
+        </div>
+		
+		
+        <div id="banner6" class="banner">
+          <h4>Health is...</h4>
+          <h1>Community</h1>
+          <p>La Fe is empowering our familes and youth through <br>community participation in local events.</p>
+          <p><%= link_to "Learn more &raquo;".html_safe, healthcare_path, :class => "btn primary large" %></p>
+        </div>		
+		
+      </div>
+
+
+      <div class="row">
+        <div class="span-two-thirds">
+          <h1>2012 North Easter Parade</h1>
+         
+          <img class="float-left" src="http://www.lafe-ep.org/b/wp-content/uploads/2012/04/2011EasterParade58.jpg" width="200" height="150" />
+
+<p>You are cordially invited to join La Fe at the 2012 NorthEaster Parade, which takes place this Saturday, April 7, 2012. The parade will begin at 10 a.m. at the corner of Hercules and Diana Streets in Northeast El Paso. The parade will end at the former Northpark Mall site on Dyer Street.</p>
+
+<p>Come cheer on our beautifully decorated La Fe CARE Center RV as our NorthEaster parade entry! About 50 staff members, volunteers, and children from the La Fe Montana Vista Community Resource Center and After-School Project, the La Fe Ballet Folklorico Totec, and La Fe Children’s Clown Troupe will man La Fe’s entry.</p>
+
+<p>It’s going to be a beautiful Easter Saturday. We hope you’ll all be there to help us celebrate the holiday as our entry participants cheerfully wave to the crowds along the parade route!</p>
+
+<p>
+<strong>2012 NorthEaster Parade</strong><br />
+<strong>WHEN: 10 a.m., Saturday, April 7, 2012</strong><br />
+<strong>WHERE: Corner of Hercules and Diana Streets</strong><br />
+</p>		  
+		  
+          </div>
+
+        <div class="span-one-third side-bar">
+		  	<h2>About La Fe</h2>
+			<p>Centro de Salud Familiar La Fe, Inc. — a Federally Qualified Community Health Center — is an award-winning and nationally recognized health-care and social-justice non-profit serving the US-Mexico Border since 1967. La Fe’s growing family of 23 medical and social-service sites is located throughout the El Paso County region. The La Fe network includes nine primary health-care centers; West Texas’ largest comprehensive HIV/ AIDS services facility; the La Fe Child and Adolescent Wellness Center; the La Fe Culture and Technology Center; the San Antonio-based La Fe Policy, Research, and Education Center, the La Fe Preparatory School; and numerous social-justice and community programs benefiting El Paso families. </p>
+			<p>Centro de Salud Familiar La Fe, Inc. is a proud affiliate of the National Council of La Raza and a charter member of the National and the Texas Associations of Community Health Centers.</p>
+			
+        </div>
+      </div>
+
+      <hr />
+      <!-- saecond row -->
+      <div class="row">
+        <div class="span-one-third">
+          <h2>Health Care</h2>
+		  <%= image_tag "healthcare.jpg", :size => "100x75", :alt => "Doctor seeing child patient", :class => "float-left" %>
+          <p>Access La Fe's El Paso County-wide network of health clinics. We offer a variety of services including:  <%= link_to "Medical", health_medical_path %> and <%= link_to "Dental Services", health_dental_path %> for Children, Adolescents, and Adults, <%= link_to "Prenatal Care", health_prenatal_path %>, <%= link_to "Family Planning Services", health_familyplanning_path %>, <%= link_to "HIV Testing and Counseling", health_hivservices_path %>.  Other services include <%= link_to "Pharmacy", health_pharmacy_path %>, <%= link_to "Laboratory, X-Rays", health_laboratory_path %>, <%= link_to "Social Services", health_socialservices_path %>, <%= link_to "Health Promotion/ Disease Prevention", health_promotion_path %>, and <%= link_to "WIC", health_wic_path %>.</p>
+          <p><%= link_to "Our Health Services &raquo;".html_safe, healthcare_path, :class => "btn" %></p>
+        </div>
+		
+        <div class="span-one-third">
+          <h2>Education</h2>
+		  <%= image_tag "education.jpg", :size => "100x75", :alt => "La Fe Prep Students", :class => "float-left" %>
+           <p>La Fe's community centers and the La Preparatory School offer education programs to help families build a better future. Finish your GED. Improve your skills through La Fe's English-Language Learner classes. Take our US Citizenship Preparedness Classes and get ready for the final exam. Technology, like education is power. Sign up now for La Fe's Computer Literacy classes.</p>
+          <p><%= link_to "Classes at La Fe &raquo;".html_safe, education_path, :class => "btn" %></p>
+       </div>
+        <div class="span-one-third">
+          <h2>Community</h2>
+		  <%= image_tag "community.jpg", :size => "100x75", :alt => "Senior Companion Crafts", :class => "float-left" %>
+          <p>Empowerment helps us build our own future.  Access the resources you and your family need at any of our community centers. Our community-based programs include: the La Fe Senior Companion Program; the La Fe Cafe; the La Fe Culinary Arts and Education Center; Sabor Sobre Ruedas; the La Fe-Serna Ranch Youth Leadership Program; and the La Fe Printshop.</p>
+          <p><%= link_to "Join Now &raquo;".html_safe, familysupport_path, :class => "btn" %></p>
+        </div>
+      </div>
+
+      <hr />
+      <!-- third row -->
+      <div class="row">
+        <div class="span-one-third">
+          <h2>Nutrition</h2>
+		  <%= image_tag "nutrition.jpg", :size => "100x75", :alt => "Kids in Cooking Class", :class => "float-left" %>
+          <p>Our community's families deserve good, wholesome, and affordable foods. Our Diabetes Patient Education Program can help you take control of your health. Learn steps for smarter grocery shopping, healthier cooking, and preserving your family's recipes. Find the nutritional support your growing family needs with WIC. </p>
+          <p><%= link_to "Healthy Eating with La Fe &raquo;".html_safe, nutrition_path, :class => "btn" %></p>
+        </div>
+        <div class="span-one-third">
+          <h2>Housing</h2>
+		  <%= image_tag "housing.jpg", :size => "100x75", :alt => "Magoffin Park Villas", :class => "float-left" %>
+           <p>Quality, dignified housing for our community's working families is a key element of La Fe's social-justice efforts. In 2011, La Fe's Magoffin Park Villas became the first residential housing effort in Downtown El Paso's rebirth. MPV residents live within walking distance from Downtown's businesses, museums, and fun..</p>
+          <p><a class="btn" href="#">MPV website &raquo;</a></p> <!-- This link needs to point to the MPV website -->
+       </div>
+        <div class="span-one-third">
+          <h2>Culture</h2>
+		  <%= image_tag "culture.jpg", :size => "100x75", :alt => "Dance Troop", :class => "float-left" %>
+          <p>Feed your soul and celebrate our region's proud Chicano heritage. Find your inner artist at our community centers and learn more about our events and celebrations. Sign up to dance with the La Fe Ballet Folklorico Totec. Sing along with the Guitarras de La Fe. Take a production class at the La Fe Recording Studio.</p>
+          <p><%= link_to "List of Programs &raquo;".html_safe, culturalarts_path, :class => "btn" %></p>
+        </div>
+      </div>
+
