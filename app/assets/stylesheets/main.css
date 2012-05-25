@@ -185,7 +185,7 @@ body {
   
   margin: 0;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: 'adobe-text-pro', serif;
+  font-family: 'ratio', serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
@@ -410,7 +410,7 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  font-family:  'ratio', sans-serif;
+  font-family:  'ff-meta-serif-web-pro', sans-serif;
   color: #414;
 }
 h1 small,
@@ -1787,7 +1787,7 @@ a.menu:after, .dropdown-toggle:after {
   font-size: 90px;
   line-height: 1;
   letter-spacing: -1px;
-  font-family: 'Marck Script', pristina, cursive;
+  font-family: 'ratio';
   color: #fff;
   text-shadow: 0 0 10px #000;
 }
@@ -1795,7 +1795,7 @@ a.menu:after, .dropdown-toggle:after {
   font-size: 18px;
   font-weight: 200;
   line-height: 27px;
-  font-family: 'Amethysta', serif;
+  font-family: 'ratio', serif;
   color: #fff;
   text-shadow: 0 0 5px #000;
 }
@@ -2505,7 +2505,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   font-size: 90px;
   line-height: 1.5;
   letter-spacing: -1px;
-  font-family: 'ff-market-web';
+  font-family: 'sanvito-pro';
   color: #fff;
   text-shadow: 0 0 5px #000;
 }
@@ -2602,7 +2602,7 @@ footer .span-one-third, .span-one-third h3 {
 }
 footer .fancy-font {
   color: #d69e2b;
-  font-family: 'ff-market-web';
+  font-family: 'sanvito-pro';
   line-height: 1.2em;
   font-size: 1.6em;
 }
