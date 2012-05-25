@@ -182,6 +182,7 @@ textarea {
  * ------------------------------------------------------------------------------------------- */
 body {
   background-color: #fff;
+  background: url(bg-body.png);
   
   margin: 0;
   /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
@@ -1801,6 +1802,7 @@ a.menu:after, .dropdown-toggle:after {
 }
 footer {
   background: #222;
+  background: url(bg-footer.png);
   margin-top: 17px;
   padding-top: 17px;
   border-top: 1px solid #eee;
@@ -2652,6 +2654,10 @@ footer .span-two-thirds h4 {
 
 .side-bar ul, side-bar ul li {
  color: #fff;
+}
+
+li {
+	color: #fff;
 }
 
 .highlight-box {
