@@ -2656,7 +2656,7 @@ footer .span-two-thirds h4 {
  color: #fff;
 }
 
-li {
+li.light {
 	color: #fff;
 }
 
@@ -2664,7 +2664,7 @@ li {
 	background: url('glyph3.png') #84005b repeat-x;
 	background-position: left top;
 	color: #eee;
-	margin-top: 30px;
+	margin-top: ß0px;
 	padding: 30px 20px 20px 20px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
