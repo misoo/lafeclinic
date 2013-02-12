@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+
+.banner {
+  height: 375px;
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  padding: 40px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.banner h1 {
+  margin-bottom: 0;
+  margin-top: -30px;
+  font-size: 90px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  font-family: 'sanvito-pro';
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+
+
+.banner h4 {
+	color: #fff;
+	text-shadow: 0 0 5px #000;
+}
+
+.banner p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  font-family: 'ratio';
+  color: #fff;
+  text-shadow: 0 0 5px #000;  
+}
+
+#banner1 {
+  background: url("fp01.jpg") no-repeat;  
+}
+
+#banner2 {
+  background: url("fp02.jpg") no-repeat;  
+}
+
+#banner3 {
+  background: url("fp03.jpg") no-repeat;
+}
+
+#banner4 {
+  background: url("fp04.jpg") no-repeat;
+}
+
+#banner5 {
+  background: url("fp05.jpg") no-repeat;
+}
+
+#banner6 {
+  background: url("fp06.jpg") no-repeat;
+}
+
+
+.fp-article {
+  background: #eee;
+}

@@ -16,6 +16,8 @@
     
 	<%= stylesheet_link_tag "main" %>
 	<%= stylesheet_link_tag "responsive" %>
+	<%= stylesheet_link_tag "app" %>
+
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -47,26 +49,48 @@
   <body>
 <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 
-    <div class="topbar" data-dropdown="dropdown">
-      <div class="fill">
-        <div class="container">
-		  <%= link_to "La Fe", root_path, :class => "brand" %>
-          <ul class="nav">
-            <li></li>
-			<li><%= link_to "About", about_path %></li>
-          <!-- 	<li><%= link_to "News", news_path %></li> 			-->
-          <!--  <li><%= link_to "Events", events_path %></li> 		-->
-            <li><%= link_to "Health Care", healthcare_path %></li>
-            <li><%= link_to "Community", familysupport_path %></li>
-            <li><%= link_to "Education", education_path %></li>
-			<li><%= link_to "Cultural Arts", culturalarts_path %></li>
-            <li><%= link_to "Careers", careers_path %></li>
-            <li><%= link_to "Contact", contact_path %></li>
-          </ul>
 
+<div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse">
+          <div class="navbar-inner">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <%= link_to "La Fe", root_path, :class => "brand" %>
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><%= link_to "About", about_path %></li>
+                <li><%= link_to "Health Care", healthcare_path %></li>
+                <li><%= link_to "Community", familysupport_path %></li>
+                <li><%= link_to "Education", education_path %></li>
+				<li><%= link_to "Cultural Arts", culturalarts_path %></li>
+            	<li><%= link_to "Careers", careers_path %></li>
+            	<li><%= link_to "Contact", contact_path %></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="nav-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </div>
+
+      </div> 
     </div>
+
 	<div class="container bg-box">
 	<%= yield %>
 	
