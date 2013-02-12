@@ -28,7 +28,7 @@ Lafeclinic::Application.routes.draw do
   match "/health/wic",              :to => 'pages#wic'
   
   
-# Homepage  
+# The Front Page  
   root                              :to => 'pages#home'
 end
 
