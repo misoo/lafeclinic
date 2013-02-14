@@ -1,4 +1,5 @@
-
+    <!-- Carousel
+    ================================================== -->
     <div id="myCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
@@ -34,21 +35,17 @@
       </div>
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
-    </div>
+    </div><!-- /.carousel -->
 
-    <div class="container marketing">
+
+    <div class="container">
 
       <div class="row">
-        <div class="span8">
-			     <%= image_tag "chm-2012.jpg", :size => "", :alt => "FLyer for Event", :class => "float-left" %>  
-		    </div>
-
-        <div class="span4 side-bar">
-		  	<h2>About La Fe</h2>
-			<p>Centro de Salud Familiar La Fe, Inc. — a Federally Qualified Community Health Center — is an award-winning and nationally recognized health-care and social-justice non-profit serving the US-Mexico Border since 1967. La Fe’s growing family of 23 medical and social-service sites is located throughout the El Paso County region. The La Fe network includes nine primary health-care centers; West Texas’ largest comprehensive HIV/ AIDS services facility; the La Fe Child and Adolescent Wellness Center; the La Fe Culture and Technology Center; the San Antonio-based La Fe Policy, Research, and Education Center, the La Fe Preparatory School; and numerous social-justice and community programs benefiting El Paso families.</p>
-			<p>Centro de Salud Familiar La Fe, Inc. is a proud affiliate of the National Council of La Raza and a charter member of the National and the Texas Associations of Community Health Centers.</p>
-			
-        </div>
+        <div class="">
+		  	 <h2>About La Fe</h2>
+  			 <p>Centro de Salud Familiar La Fe, Inc. — a Federally Qualified Community Health Center — is an award-winning and nationally recognized health-care and social-justice non-profit serving the US-Mexico Border since 1967. La Fe’s growing family of 23 medical and social-service sites is located throughout the El Paso County region. The La Fe network includes nine primary health-care centers; West Texas’ largest comprehensive HIV/ AIDS services facility; the La Fe Child and Adolescent Wellness Center; the La Fe Culture and Technology Center; the San Antonio-based La Fe Policy, Research, and Education Center, the La Fe Preparatory School; and numerous social-justice and community programs benefiting El Paso families.</p>
+			   <p>Centro de Salud Familiar La Fe, Inc. is a proud affiliate of the National Council of La Raza and a charter member of the National and the Texas Associations of Community Health Centers.</p>
+			  </div>
       </div>
 
       <hr />
@@ -56,20 +53,20 @@
       <div class="row">
         <div class="span4">
           <h2>Health Care</h2>
-		  <%= image_tag "healthcare.jpg", :size => "100x75", :alt => "Doctor seeing child patient", :class => "float-left" %>
+		  		<%= image_tag "healthcare.jpg", :size => "100x75", :alt => "Doctor seeing child patient", :class => "float-left" %>
           <p>Access La Fe's El Paso County-wide network of health clinics. We offer a variety of services including:  Medical and Dental Services for Children, Adolescents, and Adults,Prenatal Care, Family Planning Services, HIV Testing and Counseling.  Other services include Pharmacy, Laboratory, X-Rays, Social Services, Health Promotion/ Disease Prevention, and WIC.</p>
           <p><%= link_to "Our Health Services &raquo;".html_safe, healthcare_path, :class => "btn" %></p>
         </div>
 		
         <div class="span4">
           <h2>Education</h2>
-		  <%= image_tag "education.jpg", :size => "100x75", :alt => "La Fe Prep Students", :class => "float-left" %>
+		  		<%= image_tag "education.jpg", :size => "100x75", :alt => "La Fe Prep Students", :class => "float-left" %>
            <p>La Fe's community centers and the La Preparatory School offer education programs to help families build a better future. Finish your GED. Improve your skills through La Fe's English-Language Learner classes. Take our US Citizenship Preparedness Classes and get ready for the final exam. Technology, like education is power. Sign up now for La Fe's Computer Literacy classes.</p>
           <p><%= link_to "Classes at La Fe &raquo;".html_safe, education_path, :class => "btn" %></p>
        </div>
         <div class="span4">
           <h2>Community</h2>
-		  <%= image_tag "community.jpg", :size => "100x75", :alt => "Senior Companion Crafts", :class => "float-left" %>
+		  		<%= image_tag "community.jpg", :size => "100x75", :alt => "Senior Companion Crafts", :class => "float-left" %>
           <p>Empowerment helps us build our own future.  Access the resources you and your family need at any of our community centers. Our community-based programs include: the La Fe Senior Companion Program; the La Fe Cafe; the La Fe Culinary Arts and Education Center; Sabor Sobre Ruedas; the La Fe-Serna Ranch Youth Leadership Program; and the La Fe Printshop.</p>
           <p><%= link_to "Join Now &raquo;".html_safe, familysupport_path, :class => "btn" %></p>
         </div>
@@ -80,22 +77,21 @@
       <div class="row">
         <div class="span4">
           <h2>Nutrition</h2>
-		  <%= image_tag "nutrition.jpg", :size => "100x75", :alt => "Kids in Cooking Class", :class => "float-left" %>
+		  		<%= image_tag "nutrition.jpg", :size => "100x75", :alt => "Kids in Cooking Class", :class => "float-left" %>
           <p>Our community's families deserve good, wholesome, and affordable foods. Our Diabetes Patient Education Program can help you take control of your health. Learn steps for smarter grocery shopping, healthier cooking, and preserving your family's recipes. Find the nutritional support your growing family needs with WIC. </p>
           <p><%= link_to "Healthy Eating with La Fe &raquo;".html_safe, nutrition_path, :class => "btn" %></p>
         </div>
         <div class="span4">
           <h2>Housing</h2>
-		  <%= image_tag "housing.jpg", :size => "100x75", :alt => "Magoffin Park Villas", :class => "float-left" %>
+		  		<%= image_tag "housing.jpg", :size => "100x75", :alt => "Magoffin Park Villas", :class => "float-left" %>
            <p>Quality, dignified housing for our community's working families is a key element of La Fe's social-justice efforts. In 2011, La Fe's Magoffin Park Villas became the first residential housing effort in Downtown El Paso's rebirth. MPV residents live within walking distance from Downtown's businesses, museums, and fun..</p>
           <p><a class="btn" href="#">MPV website &raquo;</a></p> <!-- This link needs to point to the MPV website -->
        </div>
         <div class="span4">
           <h2>Culture</h2>
-		  <%= image_tag "culture.jpg", :size => "100x75", :alt => "Dance Troop", :class => "float-left" %>
+		  		<%= image_tag "culture.jpg", :size => "100x75", :alt => "Dance Troop", :class => "float-left" %>
           <p>Feed your soul and celebrate our region's proud Chicano heritage. Find your inner artist at our community centers and learn more about our events and celebrations. Sign up to dance with the La Fe Ballet Folklorico Totec. Sing along with the Guitarras de La Fe. Take a production class at the La Fe Recording Studio.</p>
           <p><%= link_to "List of Programs &raquo;".html_safe, culturalarts_path, :class => "btn" %></p>
         </div>
       </div>
-    </div>
-
+    </div> <!-- # container -->
