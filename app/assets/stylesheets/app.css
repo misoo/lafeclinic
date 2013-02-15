@@ -42,3 +42,9 @@ footer .span8 ul li:first-child:before {
   content: " ";
 }
 
+.magic-box {
+  background: #722;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px
+}

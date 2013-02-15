@@ -31,9 +31,22 @@
           <%= link_to "La Fe", root_path, :class => "brand" %>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
               <li><%= link_to "About", about_path %></li>
-              <li><%= link_to "Health Care", healthcare_path %></li>
+
+              <li class="dropdown">
+                <%= link_to "Health Care", healthcare_path, :class => "dropdown-toggle", "data-toggle" => "dropdown" %>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+
+              
               <li><%= link_to "Community", familysupport_path %></li>
               <li><%= link_to "Education", education_path %></li>
               <li><%= link_to "Cultural Arts", culturalarts_path %></li>
